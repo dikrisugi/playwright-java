@@ -38,7 +38,12 @@ jobs:
 
     # 🔥 GENERATE REPORT
     - name: Generate Allure Report
-      run: allure generate allure-results --clean -o allure-report
+      run: |
+        if [ -d "allure-results" ]; then
+          allure generate allure-results --clean -o allure-report
+        else
+          echo "No allure-results found, skipping report"
+        fi
 
     # 🔥 UPLOAD REPORT
     - name: Upload Allure Report
@@ -46,3 +51,9 @@ jobs:
       with:
         name: allure-report
         path: allure-report
+    
+    - name: Check Allure Results
+      run: |
+        echo "=== CHECK allure-results ==="
+        ls -la
+        ls -la allure-results || echo "NO allure-results folder"
