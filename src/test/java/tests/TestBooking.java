@@ -60,8 +60,8 @@ public class TestBooking {
     System.out.println("Actual: " + confirm);
 
     // 🔥 ASSERTION (ini standar QA)
-    //Assert.assertTrue(confirm.contains("Appointment Confirmation"));
-    Assert.assertTrue(false);
+    Assert.assertTrue(confirm.contains("Appointment Confirmation"));
+    //Assert.assertTrue(false);
   }
   
   @Test
