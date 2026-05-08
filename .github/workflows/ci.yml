@@ -52,6 +52,12 @@ jobs:
           echo "No allure-results found"
         fi
 
+    # 🔍 DEBUG REPORT (WAJIB)
+    - name: Debug Allure Report
+      run: |
+        echo "=== CHECK allure-report ==="
+        ls -la allure-report || echo "NO allure-report folder"
+
     # 🔥 UPLOAD (SAFE)
     - name: Upload Allure Report
       if: always()
