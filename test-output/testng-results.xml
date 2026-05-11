@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-08T10:30:31 WIB" name="Default suite" finished-at="2026-05-08T10:30:48 WIB" duration-ms="17202">
+  <suite started-at="2026-05-11T08:19:45 WIB" name="Default suite" finished-at="2026-05-11T08:20:18 WIB" duration-ms="33262">
     <groups>
     </groups>
-    <test started-at="2026-05-08T10:30:31 WIB" name="Default test" finished-at="2026-05-08T10:30:48 WIB" duration-ms="17202">
+    <test started-at="2026-05-11T08:19:45 WIB" name="Default test" finished-at="2026-05-11T08:20:18 WIB" duration-ms="33262">
       <class name="tests.TestBooking">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestBooking@3527942a]" started-at="2026-05-08T10:30:31 WIB" name="setup" finished-at="2026-05-08T10:30:37 WIB" duration-ms="6565" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.TestBooking@3527942a]" started-at="2026-05-11T08:19:45 WIB" name="setup" finished-at="2026-05-11T08:20:01 WIB" duration-ms="16152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.TestBooking@3527942a]" started-at="2026-05-08T10:30:37 WIB" name="setupTest" finished-at="2026-05-08T10:30:38 WIB" duration-ms="441" status="PASS">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.TestBooking@3527942a]" started-at="2026-05-11T08:20:01 WIB" name="setupTest" finished-at="2026-05-11T08:20:01 WIB" duration-ms="404" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="testBooking()[pri:0, instance:tests.TestBooking@3527942a]" started-at="2026-05-08T10:30:38 WIB" name="testBooking" finished-at="2026-05-08T10:30:43 WIB" duration-ms="4942" status="PASS">
+        <test-method signature="testBooking()[pri:0, instance:tests.TestBooking@3527942a]" started-at="2026-05-11T08:20:02 WIB" name="testBooking" finished-at="2026-05-11T08:20:11 WIB" duration-ms="9277" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBooking -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:tests.TestBooking@3527942a]" started-at="2026-05-08T10:30:43 WIB" name="tearDownTest" finished-at="2026-05-08T10:30:43 WIB" duration-ms="161" status="PASS">
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:tests.TestBooking@3527942a]" started-at="2026-05-11T08:20:11 WIB" name="tearDownTest" finished-at="2026-05-11T08:20:12 WIB" duration-ms="777" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,15 +30,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.TestBooking@3527942a]" started-at="2026-05-08T10:30:43 WIB" name="setupTest" finished-at="2026-05-08T10:30:43 WIB" duration-ms="290" status="PASS">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:tests.TestBooking@3527942a]" started-at="2026-05-11T08:20:12 WIB" name="setupTest" finished-at="2026-05-11T08:20:12 WIB" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="testLoginFailed()[pri:0, instance:tests.TestBooking@3527942a]" started-at="2026-05-08T10:30:43 WIB" name="testLoginFailed" finished-at="2026-05-08T10:30:47 WIB" duration-ms="4231" status="PASS">
+        <test-method signature="testLoginFailed()[pri:0, instance:tests.TestBooking@3527942a]" started-at="2026-05-11T08:20:12 WIB" name="testLoginFailed" finished-at="2026-05-11T08:20:17 WIB" duration-ms="5553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginFailed -->
-        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:tests.TestBooking@3527942a]" started-at="2026-05-08T10:30:47 WIB" name="tearDownTest" finished-at="2026-05-08T10:30:48 WIB" duration-ms="214" status="PASS">
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:tests.TestBooking@3527942a]" started-at="2026-05-11T08:20:17 WIB" name="tearDownTest" finished-at="2026-05-11T08:20:18 WIB" duration-ms="440" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,7 +49,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestBooking@3527942a]" started-at="2026-05-08T10:30:48 WIB" name="tearDown" finished-at="2026-05-08T10:30:48 WIB" duration-ms="214" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TestBooking@3527942a]" started-at="2026-05-11T08:20:18 WIB" name="tearDown" finished-at="2026-05-11T08:20:18 WIB" duration-ms="176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

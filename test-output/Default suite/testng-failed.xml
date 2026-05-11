@@ -6,7 +6,7 @@
       <class name="tests.TestBooking">
         <methods>
           <include name="tearDownTest"/>
-          <include name="testBooking"/>
+          <include name="testLoginFailed"/>
           <include name="setup"/>
           <include name="tearDown"/>
           <include name="setupTest"/>
